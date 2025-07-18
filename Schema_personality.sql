@@ -31,7 +31,7 @@ from behavior;
 
 
 -- Personality label or target
-create table personality_lable (
+create table personality_label (
 		personality_lable_numer bigint primary key,
         personality enum('Introvert', 'Extrovert'),
         person_id bigint not null,
@@ -39,4 +39,4 @@ create table personality_lable (
 );
 
 select *
-from personality_lable 
+from personality_label 
